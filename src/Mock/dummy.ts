@@ -26,3 +26,30 @@ export const introSectionData = [
         icon: '/windows.png'
     },
 ]
+
+export const aboutIPTVImages = [
+    {
+        id: 0,
+        image: '/google-play.png'
+    },
+    {
+        id: 1,
+        image: '/app-store.png'
+    },
+    {
+        id: 2,
+        image: '/windows-blue.png'
+    },
+    {
+        id: 3,
+        image: 'mac-os.png'
+    },
+    {
+        id: 4,
+        image: 'apk.png'
+    },
+    {
+        id: 5,
+        image: '/web-browser.png'
+    },
+]
