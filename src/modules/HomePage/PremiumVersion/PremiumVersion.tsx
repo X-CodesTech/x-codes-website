@@ -1,12 +1,11 @@
 import { Col, Row } from "react-bootstrap";
+import HeadTitle from "../../../components/shared/HeadTitle/HeadTitle";
 
 const PremiumVersion = () => {
   return (
     <Row className="my-5">
       <Col xs={12} md={12} className="justify-content-center">
-        <p className="text-muted fs-5 fw-light text-uppercase text-center">
-          GET PREMIUM VERSION – FREE{" "}
-        </p>
+        <HeadTitle text="GET PREMIUM VERSION – FREE" />
       </Col>
       <Col xs={12} md={6} className="justify-content-center">
         <img

@@ -1,10 +1,11 @@
 .container {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 0 !important;
+  margin: 0 0 15rem 0 !important;
 }
 
 .wrapper {
   margin-top: 30px;
+  height: auto;
 }

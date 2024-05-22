@@ -6,9 +6,10 @@ const Header = () => {
     <header>
       <Navbar
         expand="lg"
-        style={{ backgroundColor: "var(primary-color)" }}
+        style={{ backgroundColor: "#00192b" }}
         data-bs-theme="dark"
         bg="dark"
+        fixed="top"
       >
         <Container>
           <Navbar.Brand href="#home">

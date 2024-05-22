@@ -1,6 +1,20 @@
 .footerContainer {
+  position: fixed;
+  bottom: 0;
   margin-top: auto;
-  text-align: center;
+  background-color: #00192b;
   padding: 10px 0;
-  border-top: 1px solid black;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }

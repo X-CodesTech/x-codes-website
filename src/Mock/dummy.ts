@@ -53,3 +53,26 @@ export const aboutIPTVImages = [
         image: '/web-browser.png'
     },
 ]
+
+export const faqsData = [    
+    {
+        id: 0,
+        question: "WHAT IS AN IPTV SMARTERS PRO?",
+        answer: `IPTV Smarters Pro is the Premium version of IPTV Smarters App. It is a fabulous 
+        video streaming player that allows your IPTV customers or end-users to stream 
+        content like Live TV, VOD, Series, and TV Catchup supplied by you; on their Android & 
+        iOS devices, Smart TV, and even on macOS/Windows PC/Laptop.
+        `
+    },
+    {
+        id: 1,
+        question: "DOES IPTV SMARTERS CONTAIN THE PLAYLIST/CONTENT TO WATCH",
+        answer: `HOW TO INSTALL IPTV SMARTERS FOR ANDROID DEVICES AS IT'S NOT AVAILABLE ON THE PLAY STORE?
+        `,
+    },
+    {
+        id: 2,
+        question: "",
+        answer: ""
+    }
+]
