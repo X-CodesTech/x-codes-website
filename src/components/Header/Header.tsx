@@ -1,14 +1,15 @@
 import { NavLink } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
+import "./styles.module.scss";
 
 const Header = () => {
   return (
-    <header>
+    <header style={{ height: "auto" }}>
       <Navbar
         expand="lg"
-        style={{ backgroundColor: "var(primary-color)" }}
+        style={{ backgroundColor: "#00192b" }}
         data-bs-theme="dark"
-        bg="dark"
+        fixed="top"
       >
         <Container>
           <Navbar.Brand href="#home">
@@ -35,9 +36,6 @@ const Header = () => {
               </Nav.Link>
               <Nav.Link as={NavLink} to="/how-it-works">
                 How it works
-              </Nav.Link>
-              <Nav.Link as={NavLink} to="/features">
-                Features
               </Nav.Link>
               <Nav.Link as={NavLink} to="/screenshots">
                 screenshots
