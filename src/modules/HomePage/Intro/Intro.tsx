@@ -28,7 +28,11 @@ const Intro = () => {
             md={6}
             className={styles["intro__devices__item"]}
           >
-            <img src={item.icon} alt={"platform"} className="img-fluid" />
+            <img
+              src={item.icon}
+              alt={"platform"}
+              className={`img-fluid ${styles["intro__devices__item__icon"]}`}
+            />
             <p>{item.text}</p>
           </Col>
         ))}
