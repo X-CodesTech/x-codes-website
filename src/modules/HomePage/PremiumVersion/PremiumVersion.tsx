@@ -19,7 +19,7 @@ const PremiumVersion = () => {
         md={6}
         className="mt-2 align-content-center justify-content-between"
       >
-        <p className="text-muted fs-5 fw-light text-uppercase mb-1">
+        <p className="fs-5 fw-light text-uppercase mb-1">
           UNLOCK ALL THE PREMIUM FEATURES:
         </p>
         <ul className="list-unstyled flex-column">

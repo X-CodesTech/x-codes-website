@@ -14,7 +14,7 @@ const AboutIPTV = ({
         <img src="/new-version.png" alt="version" className="img-fluid" />
       </Col>
       <Col xs={12} md={8}>
-        <p className="text-muted my-2 fs-5 fw-light text-uppercase text-center mb-2">
+        <p className="my-2 fs-5 fw-light text-uppercase text-center mb-2">
           DOWNLOAD {old ? "OLD" : "NEW"} VERSION OF <br /> IPTV SMARTERS PLUS –
           2023 VERSION 4.0
         </p>

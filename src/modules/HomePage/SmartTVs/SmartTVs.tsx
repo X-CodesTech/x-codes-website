@@ -16,7 +16,7 @@ const SmartTVs = () => {
         </div>
       </Col>
       <Col xs={12} md={6} className="justify-content-center my-5">
-        <p className="text-muted my-2 fs-5 fw-light">
+        <p className="my-2 fs-5 fw-light">
           IPTV Smarters is an incredible video streaming player which is
           developed especially for end-users that want to be provided with the
           facility to watch live TV, VOD, Series and TV Catchup on their Smart

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "source": "/android-white.png",
+        "name": "Android"
+    },
+    {
+        "id": 1,
+        "source": "/ios-white.png",
+        "name": "iOS"
+    },
+    {
+        "id": 2,
+        "source": "/smart-tv-white.png",
+        "name": "Smart TV"
+    },
+    {
+        "id": 3,
+        "source": "/windows-white.png",
+        "name": "Windows"
+    }
+]

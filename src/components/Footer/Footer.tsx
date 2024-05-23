@@ -1,16 +1,16 @@
 import { Col, Container, Row } from "react-bootstrap";
-import styles from "./styles.module.scss";
 import { Link } from "react-router-dom";
-const { footerContainer } = styles;
+import styles from "./styles.module.scss";
+import platforms from "./platforms.json";
+const { footerContainer, footerText } = styles;
+
+type TPlatform = { name: string; source: string; id: number };
 const Footer = () => {
   return (
     <Container className={footerContainer} fluid>
       <Row className="p-2">
-        <Col xs={12}>
-          <p
-            className="my-2 fs-6 fw-light pb-3"
-            style={{ maxWidth: "50%", color: "#fff" }}
-          >
+        <Col xs={12} className="mb-2">
+          <p className={footerText}>
             IPTV Smarters Pro – Best OTT Player The IPTV Smarters App is a
             fabulous video streaming player that allows your IPTV customers or
             end-users to stream content like Live TV, VOD, Series, and TV
@@ -42,31 +42,21 @@ const Footer = () => {
             </li>
           </ul>
         </Col>
-        <Col xs={12} md={6} className="d-flex" style={{ gap: "20px" }}>
-          <img
-            src="/android-white.png"
-            alt="android"
-            className="img-fluid"
-            style={{ width: "50px", height: "60px" }}
-          />
-          <img
-            src="/ios-white.png"
-            alt="ios"
-            className="img-fluid"
-            style={{ width: "100px", height: "60px" }}
-          />
-          <img
-            src="/smart-tv-white.png"
-            alt="smart tv"
-            className="img-fluid"
-            style={{ width: "50px", height: "60px" }}
-          />
-          <img
-            src="/windows-white.png"
-            alt="windows"
-            className="img-fluid"
-            style={{ width: "50px", height: "60px" }}
-          />
+        <Col
+          xs={12}
+          md={6}
+          className="d-flex align-items-center justify-content-center"
+          style={{ gap: "20px" }}
+        >
+          {platforms.map((platform: TPlatform) => (
+            <img
+              key={platform.id}
+              src={platform.source}
+              alt={platform.name}
+              className="img-fluid"
+              style={{ width: "auto", height: "60px" }}
+            />
+          ))}
         </Col>
       </Row>
     </Container>

@@ -1,12 +1,18 @@
 .footerContainer {
-  position: fixed;
-  bottom: 0;
+  width: 100%;
   margin-top: auto;
   background-color: #00192b;
   padding: 10px 0;
   overflow: hidden;
-  width: 100%;
   height: auto;
+
+  .footerText {
+    color: #fff;
+    text-align: center;
+    line-height: 1.5;
+    margin: 20px auto;
+    max-width: 800px;
+  }
 }
 
 a {

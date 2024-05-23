@@ -10,7 +10,7 @@ type Props = {
 
 const DownloadSection = ({ text, fileURL, buttonText }: Props) => {
   return (
-    <Row className="my-5 d-flex justify-content-center flex-column">
+    <Row className="my-2 d-flex justify-content-center flex-column">
       <HeadTitle text={text} />
       <div className="d-flex align-items-center justify-content-center">
         <Anchor fileURL={fileURL} buttonText={buttonText} />

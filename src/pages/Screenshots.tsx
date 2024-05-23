@@ -1,7 +1,12 @@
-import React from "react";
+import { Container } from "react-bootstrap";
+import ScreenshotsSection from "../modules/HomePage/Screenshots/ScreenshotsSection";
 
 const Screenshots = () => {
-  return <div>Screenshots</div>;
+  return (
+    <Container className="py-5" style={{ height: "100%" }}>
+      <ScreenshotsSection />
+    </Container>
+  );
 };
 
 export default Screenshots;
