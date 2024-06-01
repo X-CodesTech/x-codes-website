@@ -9,6 +9,7 @@ import Downloads from "../pages/Downloads";
 import HowItWorks from "../pages/HowItWorks";
 import FAQs from "../pages/FAQs";
 import MySmartersAccount from "../pages/MySmartersAccount";
+import Blog from "../pages/Blog";
 
 const AppRouter = () => {
   const router = createBrowserRouter([
@@ -32,6 +33,10 @@ const AppRouter = () => {
         {
           path: "screenshots",
           element: <Screenshots />,
+        },
+        {
+          path: "blogs",
+          element: <Blog />,
         },
         {
           path: "downloads",
