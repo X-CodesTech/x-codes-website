@@ -2,7 +2,7 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 
 const Features = () => {
   return (
-    <Container className="py-5" style={{ height: "100%" }}>
+    <Container className="py-5" style={{ height: "100%" }} id="features">
       <h1 className="text-center pt-5 fw-bold">Blog</h1>
       <Row>
         {[0, 1, 2, 3, 4, 5, 6, 7].map((_, index) => (

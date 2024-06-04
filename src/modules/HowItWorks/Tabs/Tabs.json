@@ -1,0 +1,119 @@
+[
+    {
+      "id": 1,
+      "title": "Android",
+      "content": [
+        {
+          "id": 0,
+          "text": [
+            "Download our app IPTV Smarters Pro ",
+            {
+              "type": "link",
+              "text": "(here)",
+              "url": "http://example.com"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "text": [
+            "Login to the application with your subscription details ( Get details from your service provider)"
+          ]
+        },
+        {
+          "id": 2,
+          "text": [
+            "After Login >> Get Premium Version to unlocked exclusive features."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "iOS",
+      "content": [
+        {
+          "id": 0,
+          "text": [
+            "Download our app IPTV Smarters Pro ",
+            {
+              "type": "link",
+              "text": "(here)",
+              "url": "http://example.com"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "text": [
+            "Login to the application with your subscription details ( Get details from your service provider)"
+          ]
+        },
+        {
+          "id": 2,
+          "text": [
+            "After Login >> Get Premium Version to unlocked exclusive features."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Smart TV",
+      "content": [
+        {
+          "id": 0,
+          "text": [
+            "Download our app IPTV Smarters Pro ",
+            {
+              "type": "link",
+              "text": "(here)",
+              "url": "http://example.com"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "text": [
+            "Login to the application with your subscription details ( Get details from your service provider)"
+          ]
+        },
+        {
+          "id": 2,
+          "text": [
+            "After Login >> Get Premium Version to unlocked exclusive features."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Windows/MAC",
+      "content": [
+        {
+          "id": 0,
+          "text": [
+            "Download our app IPTV Smarters Pro ",
+            {
+              "type": "link",
+              "text": "(here)",
+              "url": "http://example.com"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "text": [
+            "Login to the application with your subscription details ( Get details from your service provider)"
+          ]
+        },
+        {
+          "id": 2,
+          "text": [
+            "After Login >> Get Premium Version to unlocked exclusive features."
+          ]
+        }
+      ]
+    }
+  ]
+  

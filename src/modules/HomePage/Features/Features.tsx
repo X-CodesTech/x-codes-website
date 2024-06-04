@@ -2,7 +2,7 @@ import { Col, Row } from "react-bootstrap";
 
 const Features = () => {
   return (
-    <Row className="my-5">
+    <Row className="my-5" id="features">
       <Col xs={12} md={8}>
         <div className="w-100">
           <img
