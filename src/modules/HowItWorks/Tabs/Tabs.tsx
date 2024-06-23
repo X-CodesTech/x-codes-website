@@ -2,7 +2,7 @@ import { useState } from "react";
 import TabsData from "./Tabs.json";
 import styles from "./styles.module.scss";
 
-const { tabs, tabContent, step } = styles;
+const { tabContent, step } = styles;
 
 const Tabs = () => {
   const [selectedTab, setSelectedTab] = useState(1);
